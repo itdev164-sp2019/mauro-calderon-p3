@@ -41,22 +41,24 @@ h1{
 }
 
 .aside-1 {
+  text-align: center;
   background: #fff;
 }
 
 .aside-2 {
-  background: hotpink;
+  text-align: center;
+  background: #42A8C0;
 }
 
 @media all and (min-width: 600px) {
-  .aside { flex: 3 0 0; }
+  .aside { flex: 4 0 0; }
 }
 
 @media all and (min-width: 800px) {
   .main    { flex: 2 0px; }
-  .aside-1 { order: 1; } 
+  .aside-1 { order: 3; } 
   .main    { order: 2; }
-  .aside-2 { order: 3; }
+  .aside-2 { order: 1; }
   .footer  { order: 4; }
 }
 

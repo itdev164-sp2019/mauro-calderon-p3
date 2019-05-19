@@ -1,10 +1,9 @@
 import React from "react"
 import {IconHome} from '../icons/icon'
 import styled from 'styled-components'
+import SectionThree from './worexp'
 
 const MainTitle = styled.h2`
-  display:block;
-    text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
     color: #2d7788;
@@ -14,7 +13,7 @@ const MainTitle = styled.h2`
 `
 
 const SectionOne = () => (
-  <section className="aside-1">
+  <section className="aside aside-1">
       <MainTitle><div><IconHome></IconHome></div>
         CARRER PROFILE
         </MainTitle>
@@ -22,6 +21,9 @@ const SectionOne = () => (
           <p>
           Currently enrolled at Milwaukee Area Technical College in the IT Web and Software Developer Program.
           </p>
+      </div>
+      <div>
+      <SectionThree></SectionThree>
       </div>
   </section>
 )
