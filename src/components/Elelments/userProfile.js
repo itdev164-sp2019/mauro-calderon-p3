@@ -65,6 +65,7 @@ const SectionTwo = () => (
            <Titles>SQL</Titles>
          </Sectop>
       </div>
+      <br></br>
       <MainTitle><div><Language></Language></div>
         Languages
         </MainTitle>

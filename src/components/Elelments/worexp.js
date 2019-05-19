@@ -57,17 +57,16 @@ const SectionThree = () => (
              <h1>HELGESEN INDUSTRIES INC </h1>
              <br></br>
            <Titles>Quality Technician / Supervisor Assistant</Titles>
-           <Time>Apr 2015 – May 2016 Duration1 yr 2 mos</Time>
+           <Time>DEC 2012 – May 2016 Duration 4 yr 8 mos</Time>
            <br></br>
          </Sectop>
          
          <div>
              <Time>
-             Analyzed and interpreted blueprints, data and manuals to determine precise specifications. 
-             Inspect, tested and measured materials, products and installations to spec. 
-             Write programs for Zeiss Duramax using calypso 2018. 
-             Write and present reports to engineers using Microsoft word, excel, and power point. 
-             Gather information from QC-CALC for reports.
+             Helped achieve company goals by supporting production workers. 
+             Maintained proper stock levels on a line. Analyzed and interpreted blueprints, data and manuals to determine precise specifications.
+              Inspect, tested and measured materials, products and installations to spec. 
+              Write programs for manual Romer arm using power inspect
              </Time>
          </div>
          </div>
