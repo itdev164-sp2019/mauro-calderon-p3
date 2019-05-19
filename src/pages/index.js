@@ -2,12 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import SectionOne from "../components/Elelments/careerProfile"
 
 const IndexPage = () => (
   <Layout>
-    
+    <SectionOne></SectionOne>
   </Layout>
 )
 
