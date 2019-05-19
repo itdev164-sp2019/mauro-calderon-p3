@@ -2,6 +2,7 @@ import React from "react"
 import {IconHome} from '../icons/icon'
 import styled from 'styled-components'
 import SectionThree from './worexp'
+import Projects from './project'
 
 const MainTitle = styled.h2`
     font-size: 20px;
@@ -24,6 +25,10 @@ const SectionOne = () => (
       </div>
       <div>
       <SectionThree></SectionThree>
+      </div>
+      <div>
+      <Projects></Projects>
+
       </div>
   </section>
 )
