@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import "./layout.css"
+import SectionOne from "../components/Elelments/careerProfile"
+import SectionTwo from "../components/Elelments/userProfile"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,8 +26,9 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         
-        <div>
-          <main className="main">{children}</main>
+        <div className="wrapper">
+        <SectionTwo></SectionTwo>
+        <SectionOne></SectionOne>
         </div>
       </>
     )}
