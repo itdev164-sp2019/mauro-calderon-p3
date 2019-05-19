@@ -3,6 +3,8 @@ import styled from "styled-components"
 import {Hackicon} from '../icons/codingicon'
 import {Language} from '../icons/languageicon'
 import profile from '../../images/images.jpg'
+import Contact from './contact'
+
 import {
     Box,
     Card,
@@ -74,6 +76,9 @@ const SectionTwo = () => (
            <Titles>English</Titles>
            <Titles>Spanish</Titles>
          </Sectop>
+      </div>
+      <div>
+        <Contact></Contact>
       </div>
   </section>
 )
