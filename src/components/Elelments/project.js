@@ -22,7 +22,7 @@ const Projects = () => (
       <br></br>
       <Hamer></Hamer>
      <Pro>Projects</Pro>
-    <h1>Current Site</h1>
+    <h2>Current Site</h2>
      <p>This site is was created by me using React, Gatsby, Styled-Components, Rebass, Styled Icons</p>
      </div>
      <div>
